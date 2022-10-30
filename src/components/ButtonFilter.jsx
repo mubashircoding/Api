@@ -5,6 +5,7 @@ const ButtonFilter = ({fetchData: fetchAPI}) => {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line
   },[]);
 
  if(loading){
